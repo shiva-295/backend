@@ -9,5 +9,5 @@ if (isset($_GET['id'])) {
     $stmt->bindParam(':status', $status);
     $stmt->bindParam(':id', $id);
     $stmt->execute();
-    header('location: ../admin/inactive-blogs.php');
+    header('location: ./admin/inactive-blogs.php');
 }
